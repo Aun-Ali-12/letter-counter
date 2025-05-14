@@ -13,4 +13,4 @@ for (let i = 0; i < str.length; i++) {
     flag = true;
   }
 }
-flag? console.log(`${userChoiceLetter} is ${count} times.`): console.log(`Enter correct letter`);
+flag? console.log(`${userChoiceLetter} appeared ${count} times in the given text.`): console.log(`${userChoiceLetter} is not in the text`);
